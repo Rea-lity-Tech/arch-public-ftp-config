@@ -55,7 +55,7 @@ Once done, be sure to `start` and `enable` `nginx` with systemd.
 
 ## Security upgrades 
 
-*You can  improve security to authorize only your rails server to [access vsftpd](https://serverfault.com/questions/577393/vsftpd-limit-connection-to-a-set-of-ip-addresses). On heroku you need to gets their ip [link](https://help.heroku.com/JS13Y78I/i-need-to-whitelist-heroku-dynos-what-are-ip-address-ranges-in-use-at-heroku). 
+* You can improve security to authorize only your rails server to [access vsftpd](https://serverfault.com/questions/577393/vsftpd-limit-connection-to-a-set-of-ip-addresses). On heroku you need to gets their ip [link](https://help.heroku.com/JS13Y78I/i-need-to-whitelist-heroku-dynos-what-are-ip-address-ranges-in-use-at-heroku). 
 * You can secure your FTP connection with TLS ([wiki entry](https://wiki.archlinux.org/index.php/Very_Secure_FTP_Daemon#Using_SSL/TLS_to_secure_FTP)). 
 * You can serve your assets through HTTPS: [nginx blog entry](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/).
 
